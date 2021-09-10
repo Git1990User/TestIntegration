@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-10T23:59:32 PKT" name="Suite" finished-at="2021-09-10T23:59:41 PKT" duration-ms="8570">
+    <groups>
+    </groups>
+    <test started-at="2021-09-10T23:59:32 PKT" name="Test" finished-at="2021-09-10T23:59:41 PKT" duration-ms="8570">
+      <class name="com.login.LoginScenarios">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.login.LoginScenarios@65d6b83b]" started-at="2021-09-10T23:59:32 PKT" name="SetUp" finished-at="2021-09-10T23:59:32 PKT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="GoogleTest()[pri:0, instance:com.login.LoginScenarios@65d6b83b]" started-at="2021-09-10T23:59:32 PKT" name="GoogleTest" finished-at="2021-09-10T23:59:41 PKT" duration-ms="8539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.login.LoginScenarios@65d6b83b]" started-at="2021-09-10T23:59:41 PKT" name="getResult" finished-at="2021-09-10T23:59:41 PKT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoogleTest status=SUCCESS method=LoginScenarios.GoogleTest()[pri:0, instance:com.login.LoginScenarios@65d6b83b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.login.LoginScenarios@65d6b83b]" started-at="2021-09-10T23:59:41 PKT" name="tearDown" finished-at="2021-09-10T23:59:41 PKT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.login.LoginScenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
