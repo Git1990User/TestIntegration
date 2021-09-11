@@ -55,6 +55,22 @@ public class LoginScenarios extends ExtentReportBaseClass  {
 	//	driver.close();
 		
 	     }
+
+	@Test
+   	public void LogoutTest() {
+		test = extent.createTest("LogoutTest", "Testing Logout"); 
+		LandConfigTest();
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElementByClassName("MuiSvgIcon-root")));
+	//	driver.findElementByClassName("MuiSvgIcon-root").click();
+		driver.findElementByCssSelector("#root > div.makeStyles-root-5.makeStyles-shiftContent-6 > header > div > svg").click();
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElementByXPath("/html/body/div[2]/div[3]/div/div[3]/button[2]")));
+	    driver.findElementByXPath("/html/body/div[2]/div[3]/div/div[3]/button[2]").click();
+	    driver.close();
+		driver.quit();
+	
+		
+	     }
 	
    
 	
