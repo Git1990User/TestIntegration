@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Landed on dashboard]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-09-10T23:58:25 PKT" name="Default suite" finished-at="2021-09-10T23:58:34 PKT" duration-ms="9263">
+  <suite started-at="2021-09-12T00:23:31 PKT" name="Default suite" finished-at="2021-09-12T00:24:25 PKT" duration-ms="54489">
     <groups>
     </groups>
-    <test started-at="2021-09-10T23:58:25 PKT" name="Default test" finished-at="2021-09-10T23:58:34 PKT" duration-ms="9263">
+    <test started-at="2021-09-12T00:23:31 PKT" name="Default test" finished-at="2021-09-12T00:24:25 PKT" duration-ms="54489">
       <class name="com.login.LoginScenarios">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.login.LoginScenarios@c267ef4]" started-at="2021-09-10T23:58:25 PKT" name="SetUp" finished-at="2021-09-10T23:58:25 PKT" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.login.LoginScenarios@636be97c]" started-at="2021-09-12T00:23:30 PKT" name="SetUp" finished-at="2021-09-12T00:23:31 PKT" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="GoogleTest()[pri:0, instance:com.login.LoginScenarios@c267ef4]" started-at="2021-09-10T23:58:25 PKT" name="GoogleTest" finished-at="2021-09-10T23:58:34 PKT" duration-ms="9227" status="PASS">
+        <test-method signature="LogoutTest()[pri:0, instance:com.login.LoginScenarios@636be97c]" started-at="2021-09-12T00:23:31 PKT" name="LogoutTest" finished-at="2021-09-12T00:24:25 PKT" duration-ms="54445" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Landed on dashboard]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- GoogleTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.login.LoginScenarios@c267ef4]" started-at="2021-09-10T23:58:34 PKT" name="getResult" finished-at="2021-09-10T23:58:34 PKT" duration-ms="11" status="PASS">
+        </test-method> <!-- LogoutTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.login.LoginScenarios@636be97c]" started-at="2021-09-12T00:24:25 PKT" name="getResult" finished-at="2021-09-12T00:24:25 PKT" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=GoogleTest status=SUCCESS method=LoginScenarios.GoogleTest()[pri:0, instance:com.login.LoginScenarios@c267ef4] output={null}]]]>
+                <![CDATA[[TestResult name=LogoutTest status=SUCCESS method=LoginScenarios.LogoutTest()[pri:0, instance:com.login.LoginScenarios@636be97c] output=Landed on dashboard]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.login.LoginScenarios@c267ef4]" started-at="2021-09-10T23:58:34 PKT" name="tearDown" finished-at="2021-09-10T23:58:34 PKT" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.login.LoginScenarios@636be97c]" started-at="2021-09-12T00:24:25 PKT" name="tearDown" finished-at="2021-09-12T00:24:25 PKT" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
